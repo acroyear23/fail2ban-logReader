@@ -10,7 +10,7 @@ March 27, 2020: First "finalized" upload - v1.0
   -ban/unban options for listed offender IPs  
   -input hostnames into remote field  
   -CLEAN UP CODE (post newbie task)  
-                  
                 
-    
+ March 30, 2020 v1.1
+ -removed leftover "test" code.
 
