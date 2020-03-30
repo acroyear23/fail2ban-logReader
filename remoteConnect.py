@@ -48,7 +48,6 @@ def ssh_connect():
         client.connect(host_ip, port, user, password)
 
         sftp = client.open_sftp()
-        sftp.get('/var/log/fail2ban.log', "/home/boron/test")
 
         ssh_stdin, ssh_stdout, ssh_stderr = client.exec_command('ls /var/log')
         ssh_list = ssh_stdout.read().decode("utf-8")
