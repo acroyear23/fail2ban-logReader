@@ -1,3 +1,7 @@
+# Fail2ban Log Reader & Archiver
+# for Remote SSH and Local hosts.
+# 3/30/2020 v1.1
+
 import os
 # local modules
 import remoteConnect
@@ -5,7 +9,7 @@ import localConnect
 import interface
 import programFunctions
 
-
+# Main loop of program
 def main():
     while True:
         try:
